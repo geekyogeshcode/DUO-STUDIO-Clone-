@@ -138,10 +138,12 @@ boxes.forEach(function(elem){
         // elem.style.backgroundColor="red"
         let att=elem.getAttribute("data-image")
 
-        cursor.style.width="300px"
+        cursor.style.width="400px"
         cursor.style.height="300px"
         cursor.style.borderRadius="0"
         cursor.style.backgroundImage=`url(${att})`
+        cursor.style.transform="translate(-50%)"
+        cursor.style.borderRadius="10px"
 
     })
 

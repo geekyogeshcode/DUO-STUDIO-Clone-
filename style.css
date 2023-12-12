@@ -52,6 +52,10 @@ nav .circle{
     background-color: #ffff;
 }
 
+img{
+    border-radius: 20px;
+}
+
 .cursor{
     width: 20px;
     height: 20px;
